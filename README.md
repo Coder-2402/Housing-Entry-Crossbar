@@ -21,3 +21,19 @@ This project focuses on a real-time Iot-Based smart housing access control syste
 - Control a Servo Motor to perform mechanical actuation of the gate barrier based on validation and safety inputs.
 - Integrate with Google Sheets via Google Apps Script for real-time cloud data logging and centralized access monitoring.
 - Include a Buzzer and LED indicators to provide immediate auditory and visual feedback on the access status.
+
+## Prequisites
+
+### Component Preparation
+
+- **ESP32**: Microcontroller for data processing and servo control.
+- **RFID RC522 Module**: Reader component for emitting radio waves to read the unique identifier (UID) data from the RFID card.
+- **RFID Card**: Passive card that stores identity data in the form of a Unique Identifier (UID) and is used by users to verify their access authority to the system.
+- **Servo Motor SG90**: Converts the control signal (PWM) from the ESP32 into a rotational movement from 0° to 90° in order to open and close the gate.
+- **IR Obstacle Sensor FC-51**: Ddtect the presence of vehicles in the gate area.
+- **5V Active Buzzer**: Provides auditory feedback in the form of a beep sound.
+- **LED (Red and Green)**: Visual indicator lights showing the access status.
+- **220Ω Resistor**: Used as a current limiter in the LED circuit to prevent damage caused by excessive current.
+- **Jumper Wires (Male-to-Male & Female-to-Female)**: Used to connect data and power lines between components in the circuit.
+- **Breadboard & Expansion Board**: Prototype boards used to facilitate wiring between the microcontroller pins and sensors.
+* **Micro USB Cable**: To supply power from an electrical source to the ESP32 and to upload programs from a computer.
