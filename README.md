@@ -42,4 +42,4 @@ This project focuses on a real-time Iot-Based smart housing access control syste
 ![Datasheet ESP32](assets/nodemcu32s.jpg)
 
 ### Datasheet RFID RC522
-![Datasheet RFID](assets/rfidrc522.jpg)
+![Datasheet RFID](assets/rfidrc522.png)
