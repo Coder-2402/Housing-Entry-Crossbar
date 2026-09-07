@@ -43,3 +43,6 @@ This project focuses on a real-time Iot-Based smart housing access control syste
 
 ### Datasheet RFID RC522
 ![Datasheet RFID](assets/rfidrc522.png)
+
+### Schematic Diagram
+![Schematic Diagram](assets/schematichousingentrygate.png)
