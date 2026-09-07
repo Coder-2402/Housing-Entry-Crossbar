@@ -36,4 +36,7 @@ This project focuses on a real-time Iot-Based smart housing access control syste
 - **220Ω Resistor**: Used as a current limiter in the LED circuit to prevent damage caused by excessive current.
 - **Jumper Wires (Male-to-Male & Female-to-Female)**: Used to connect data and power lines between components in the circuit.
 - **Breadboard & Expansion Board**: Prototype boards used to facilitate wiring between the microcontroller pins and sensors.
-* **Micro USB Cable**: To supply power from an electrical source to the ESP32 and to upload programs from a computer.
+- **Micro USB Cable**: To supply power from an electrical source to the ESP32 and to upload programs from a computer.
+
+### Datasheet ESP32 (NodeMCU ESP-32S)
+assets/nodemcu32s.jpg
