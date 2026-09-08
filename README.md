@@ -50,10 +50,10 @@ This project focuses on a real-time Iot-Based smart housing access control syste
 
 ### Schematic Diagram
 <div align="center">
-  <img src="assets/schematichousingentrygate.png" alt="Schematic Diagram">
+  <img src="assets/schematic_housingentrygate.png" alt="Schematic Diagram">
 </div>
 
-## Demo & Evaluation
+## Demo Results
 
 To evaluate the system's performance, several test scenarios were conducted to ensure the RFID validation, gate mechanism, and safety features work as expected
 
@@ -81,4 +81,13 @@ While the gate is open, the IR Obstacle sensor continuously monitors the area un
 - **Area Clear:** Once the vehicle passes and the sensor no longer detects an object (outputs `HIGH`), the gate automatically closes after a short delay.
 <div align="center">
   <img src="assets/demo_ir_sensor.jpg" alt="IR Sensor Safety Mechanism" width="400">
+</div>
+
+## System Evaluation & Data Logging
+The system's reliability and IoT integration were evaluated through real-time data logging:
+- **Serial Monitor Output:** Displays real-time UID reading formats and local validation status during hardware operation.
+- **Google Sheets Integration:** Every access attempt is automatically logged to a cloud database via Google Apps Script. The log successfully records the `Timestamp`, `UID`, and `Status`.
+- **Log Status Categories:** The system successfully categorizes events into `ALLOW_LOCAL` (access granted), `DENY_LOCAL` (access denied), and `MASTER_SYNC` (database updated).
+<div align="center">
+  <img src="assets/demo_googlesheets_log.png" alt="Google Sheets Data Logging" width="600">
 </div>
