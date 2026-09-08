@@ -50,3 +50,29 @@ This project focuses on a real-time Iot-Based smart housing access control syste
 ## Demo & Evaluation
 
 To evaluate the system's performance, several test scenarios were conducted to ensure the RFID validation, gate mechanism, and safety features work as expected
+
+### 1. Unauthorized Access Denial
+When an unregistered RFID card is tapped on the reader, the system denies access. The red LED remains on, the buzzer sounds an error beep, and the gate remains closed.
+<div align="center">
+  <img src="assets/demo_access_denied.png" alt="Unauthorized Access" width="400">
+</div>
+
+### 2. Cloud-to-Local Database Synchronization
+By tapping a pre-configured MASTER Card, the ESP32 connects to the internet to fetch the latest authorized UID list from the Google Sheets database and synchronizes it into the local memory.
+<div align="center">
+  <img src="assets/demo_master_sync.png" alt="Database Synchronization" width="400">
+</div>
+
+### 3. Authorized Access Granted
+When a registered RFID card is tapped, the system grants access. The green LED turns on, the buzzer plays a success beep, and the servo motor automatically opens the gate.
+<div align="center">
+  <img src="assets/demo_access_granted.png" alt="Authorized Access" width="400">
+</div>
+
+### 4. Safety Mechanism (IR Obstacle Sensor)
+While the gate is open, the IR Obstacle sensor continuously monitors the area underneath. 
+- **Detecting Object:** If a vehicle is detected (sensor outputs `LOW`), the gate remains open to prevent the gate from hitting the vehicle.
+- **Area Clear:** Once the vehicle passes and the sensor no longer detects an object (outputs `HIGH`), the gate automatically closes after a short delay.
+<div align="center">
+  <img src="assets/demo_ir_sensor.png" alt="IR Sensor Safety Mechanism" width="400">
+</div>
