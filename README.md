@@ -41,6 +41,9 @@ This project focuses on a real-time Iot-Based smart housing access control syste
 ### Datasheet ESP32 (NodeMCU ESP-32S)
 ![Datasheet ESP32](assets/nodemcu32s.jpg)
 
+## Demo & Evaluation
+
+To evaluate the system's performance, several test scenarios were conducted to ensure the RFID validation, gate mechanism, and safety features work as expected.
 ### Datasheet RFID RC522
 ![Datasheet RFID](assets/rfidrc522.png)
 
