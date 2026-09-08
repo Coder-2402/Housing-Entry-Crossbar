@@ -91,3 +91,11 @@ The system's reliability and IoT integration were evaluated through real-time da
 <div align="center">
   <img src="assets/demo_googlesheets_log.png" alt="Google Sheets Data Logging" width="600">
 </div>
+
+## Conclusion
+This project demonstrates a modern, responsive, and efficient system for automating residential gate access using an ESP32, an RFID reader, and an IR obstacle sensor. The integration of a hybrid database architecture solves internet dependency issues by allowing instantaneous local UID validation, while seamlessly logging access data and synchronizing with Google Sheets when connected to the cloud. Furthermore, the implementation of the IR sensor as a safety mechanism effectively prevents the gate from closing prematurely on vehicles, significantly enhancing overall system reliability and user safety. This system provides a solid foundation that can be further enhanced with a real-time web monitoring dashboard, larger external local storage (microSD), or camera integration for advanced multi-factor authentication.
+
+## Members
+- Muhammad Ershad Hanif Radhiyya
+- Afif Rafi Ardiyanto
+- Muhammad Banyubiru Faiq
