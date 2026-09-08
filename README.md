@@ -39,13 +39,19 @@ This project focuses on a real-time Iot-Based smart housing access control syste
 - **Micro USB Cable**: To supply power from an electrical source to the ESP32 and to upload programs from a computer.
 
 ### Datasheet ESP32 (NodeMCU ESP-32S)
-![Datasheet ESP32](assets/nodemcu32s.jpg)
+<div align="center">
+  <img src="assets/nodemcu32s.jpg" alt="Datasheet ESP32" width="400">
+</div>
 
 ### Datasheet RFID RC522
-![Datasheet RFID](assets/rfidrc522.png)
+<div align="center">
+  <img src="assets/rfidrc522.png" alt="Datasheet RFID" width="400">
+</div>
 
 ### Schematic Diagram
-![Schematic Diagram](assets/schematichousingentrygate.png)
+<div align="center">
+  <img src="assets/schematichousingentrygate.png" alt="Schematic Diagram">
+</div>
 
 ## Demo & Evaluation
 
